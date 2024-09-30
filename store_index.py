@@ -13,7 +13,7 @@ text_chunks = text_split(extracted_data)
 embeddings = download_hugging_face_embeddings()
 
 
-#Initializing the Pinecone
+#Initializing the Chroma Database
 chroma_client = chromadb.Client()
 collection = chroma_client.create_collection(name="my_collection")
 
