@@ -6,8 +6,8 @@ with open('requirements.txt') as f:
 setup(
     name='Medical Chatbot',
     version='0.0.0',
-    author='smriti',
-    author_email='smriti003.sharma@gamil.com',
+    author='nishita',
+    author_email='nishirai04@gamil.com',
     packages=find_packages(),
     install_requires=requirements
 )
